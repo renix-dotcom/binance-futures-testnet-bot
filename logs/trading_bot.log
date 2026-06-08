@@ -1,0 +1,13 @@
+2026-06-08 21:10:26,157 - INFO - Preparing LIMIT BUY order for 0.015 BTCUSDT
+2026-06-08 21:10:26,158 - DEBUG - Sending POST to /fapi/v1/order
+2026-06-08 21:10:27,801 - ERROR - API Error: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 22:20:51,175 - INFO - Preparing LIMIT BUY order for 0.005 ETHUSDT
+2026-06-08 22:20:51,195 - DEBUG - Sending POST to /fapi/v1/order
+2026-06-08 22:20:52,053 - ERROR - API Error: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 22:22:02,214 - INFO - Preparing MARKET BUY order for 0.005 ETHUSDT
+2026-06-08 22:22:02,221 - DEBUG - Sending POST to /fapi/v1/order
+2026-06-08 22:22:02,637 - ERROR - API Error: {"code":-2014,"msg":"API-key format invalid."}
+{"timestamp": "2026-06-08 22:34:17", "level": "INFO", "logger": "TradingBot", "action": "order_request", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "mock_mode": true}
+{"timestamp": "2026-06-08 22:34:17", "level": "INFO", "logger": "TradingBot", "action": "order_success", "orderId": 1780938257732, "status": "FILLED"}
+{"timestamp": "2026-06-08 22:37:26", "level": "INFO", "logger": "TradingBot", "action": "order_request", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.004, "mock_mode": true}
+{"timestamp": "2026-06-08 22:37:26", "level": "INFO", "logger": "TradingBot", "action": "order_success", "orderId": 1780938446463, "status": "FILLED"}
